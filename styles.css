@@ -1,0 +1,66 @@
+
+#projects{
+
+  /*  background-color: red;*/
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin: auto;
+    text-align: center;
+    border-style: solid;    
+    
+}
+
+#nombre {
+    
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 17ch;
+    animation: typing 2s steps(16), blink .5s infinite step-end alternate;
+    overflow: hidden;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent }
+  }
+  
+
+#adn{
+
+    width: 100%; 
+    margin: auto;
+    color:white;
+    background-color: black;
+    height: 92vh;
+    padding: auto;
+}
+
+#adninside{
+    border-width: thick;
+    border-style: solid;
+    border-color: white;
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    padding: 2%;
+
+}
+
+#education{
+
+    width: 80%; 
+    margin: auto;
+    text-align: center;
+    border-radius: 5%;
+    color:black;
+}
+
+a:link, :visited, :active{
+    color: #fff;
+}
